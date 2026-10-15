@@ -1,0 +1,12 @@
+# local data and environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+projects/
+
+# large downloads (fetch_model.py / make_offline_bundle.py)
+models/*.gguf
+models/*.part
+wheelhouse/
